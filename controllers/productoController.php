@@ -1,2 +1,10 @@
-<h1>Controlador de pedidos
-</h1>
+<?php
+    class productoController{
+        public function index(){
+            echo "controlador de productos";
+
+        
+
+    }
+
+}
