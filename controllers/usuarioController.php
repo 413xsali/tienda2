@@ -1,2 +1,10 @@
-<h1>Controlador de usuario
-</h1>
+<?php
+    class usuarioController{
+        public function index(){
+            echo "controlador de usuarios";
+
+        
+
+    }
+
+}

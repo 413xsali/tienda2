@@ -1,2 +1,10 @@
-<h1>Controlador de categorias
-</h1>
+<?php
+    class categoriaController{
+        public function index(){
+            echo "controlador de categorias";
+
+        
+
+    }
+
+}
