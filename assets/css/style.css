@@ -234,7 +234,7 @@ button, .button
     text-align: center;
     padding-top: 10px;
     padding-bottom: 1px;
-    color: #000000;
-    background: #333333;
+    color: whitesmoke;
+    background: #9e9191;
     border-top: 5px solid red;
 }

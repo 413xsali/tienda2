@@ -1,4 +1,4 @@
-#DO NOT REMOVE THIS LINE AND LINES BELLOW SSL_REDIRECT: Washington Nieto
+#DO NOT REMOVE THIS LINE AND LINES BELLOW SSL_REDIRECT: Alex sanchez
 
 RewriteEngine On
 RewriteCond %{HTTPS} off
@@ -15,4 +15,4 @@ setEnv ENVIRONMENT produccion
 RewriteRule ^(.)/(.) index.php?controller=$1&action=$2
 
 
-#DO NOT REMOVE THIS LINE AND LINES BELLOW SSL_REDIRECT: Washington Nieto
+#DO NOT REMOVE THIS LINE AND LINES BELLOW SSL_REDIRECT: Alex sanchez
