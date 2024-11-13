@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
-    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url?>assets\css\style.css">
 </head>
 <body>
     <div id="container">
         <header id="header">
             <div id="logo">
-                <img src="assets\img\500x500-000000-80-0-0.jpg" alt="imagen logo1">
-                <a href="index.html">Tienda</a>
+                <img src="<?=base_url?>assets\img\500x500-000000-80-0-0.jpg" alt="imagen logo1">
+                <a href="<?=base_url?>">Tienda</a>
             </div>
 
             <nav id=""></nav>
