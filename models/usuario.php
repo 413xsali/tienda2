@@ -15,6 +15,8 @@ class Usuario{
     {
         $this->db = Database::connect();
     }
+
+    
     public function getId()
     {
         return $this->id;
