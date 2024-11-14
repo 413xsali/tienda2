@@ -79,7 +79,10 @@ class Usuario{
         $this->imagen=$this->db->real_escape_string($imagen);
     }
 
-    $sql = "INSERT INTO t_usuario VALUES(NULL, '($this->getNombre)',)"
+    public function save(){
+
+    $sql = "INSERT INTO t_usuario VALUES(NULL, '($this->getNombre()}','($this->getApellido()}','($this->getEmail()}','($this->getPassword()}','user',null)" ;
     
+    }
 
 }
