@@ -175,12 +175,13 @@ button, .button
 }
 
 #central{
-    width: 72%;
+    width: 65%;
     min-height: 500px;
     float: right;
     border-left: 1px solid #ccc;
     box-shadow: -5px -1px 5px #ddd;
     padding: 25px;
+    height: 200%;
 
 }
 

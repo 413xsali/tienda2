@@ -1,4 +1,4 @@
-<form action="" method="POST">
+<form action="<?=base_url?>usuario/save" method="POST">
     <label for="nombre">Nombre</label>
     <input type="text" name="nombre" required/>
 

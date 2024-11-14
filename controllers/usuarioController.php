@@ -12,4 +12,12 @@
           require_once "views/usuario/registro.php";
         }
 
+        public function save(){
+          if(isseT($POST)){
+            var_dump($POST);
+            die();
+          }
+          
+        }
+
     }
