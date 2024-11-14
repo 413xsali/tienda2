@@ -19,6 +19,13 @@
             $email = isset($_POST["email"]) ? $_POST["email"]:false;
             $password = isset($_POST["password"]) ? $_POST["password"]:false;
 
+            var_dump($nombre);
+            var_dump($apellidos);
+            var_dump($email);
+            var_dump($password);
+            die();
+
+
             if ($nombre && $apellido && $email && $password ){
 
               $usuario = new Usuario();
