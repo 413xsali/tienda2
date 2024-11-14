@@ -16,7 +16,7 @@ class Usuario{
         $this->db = Database::connect();
     }
 
-    
+
     public function getId()
     {
         return $this->id;
@@ -78,6 +78,8 @@ class Usuario{
     {
         $this->imagen=$this->db->real_escape_string($imagen);
     }
+
+    $sql = "INSERT INTO t_usuario VALUES(NULL, '($this->getNombre)',)"
     
 
 }
