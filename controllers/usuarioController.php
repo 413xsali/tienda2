@@ -13,11 +13,11 @@
         }
 
         public function save(){
-          if(isseT($POST)){
+          if(isset($POST)){
             var_dump($POST);
             die();
           }
-          
+
         }
 
     }
