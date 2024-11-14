@@ -81,8 +81,9 @@ class Usuario{
 
     public function save(){
 
-    $sql = "INSERT INTO t_usuario VALUES(NULL, '($this->getNombre()}','($this->getApellido()}','($this->getEmail()}','($this->getPassword()}','user',null)" ;
-    
+    $sql = "INSERT INTO t_usuario VALUES(NULL, '{$this->getNombre()}','{$this->getApellido()}','{$this->getEmail()}','{$this->getPassword()}','user',null)" ;
+    $save = $this->db->query($sql);
+
     }
 
 }
