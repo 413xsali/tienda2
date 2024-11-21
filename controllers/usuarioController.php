@@ -41,7 +41,7 @@
               }else{
                 $_SESSION['register'] = "failed";
               }
-          }else{
+              }else{
             $_SESSION['register'] = "failed";
           }
       }else{
