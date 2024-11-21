@@ -1,4 +1,3 @@
-<div id="central">
             <h1>productos</h1>
             <div class="product">
                 <img src="<?=base_url?>assets\img\XVO6I5CHD5CUZGB5G57G5LVMFU.jpg" alt="imagen tienda 2">
@@ -15,4 +14,3 @@
             </div>
 
         </div>
-    </div>

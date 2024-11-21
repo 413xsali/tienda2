@@ -19,7 +19,7 @@
         <nav id="Menu">
             <ul class="uls">
                 <li>
-                    <a href="#">Inicio</a>
+                    <a href="<?=base_url?>">Inicio</a>
                 </li>
                 <li>
                     <a href="#">Categoria1</a>
