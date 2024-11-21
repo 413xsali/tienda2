@@ -36,12 +36,18 @@
 
               $save = $usuario->save();
 
-
-            }
-
-
-
-            }
+              if($save){
+                $_SESSION['register'] = "complete";
+              }else{
+                $_SESSION['register'] = "failed";
+              }
+          }else{
+            $_SESSION['register'] = "failed";
           }
-
-        }
+      }else{
+          $_SESSION['register'] = "failed";
+      }
+      header("Location".base_url.'usuario/registro');
+            
+    }
+}
